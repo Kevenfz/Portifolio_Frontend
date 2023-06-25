@@ -17,3 +17,15 @@ export const LogoField = styled.div`
     ${theme.mixins.LogoFieldInfos}
   `}
 `;
+
+export const NextIcon = styled.img`
+  ${({ theme }) => css`
+    ${theme.mixins.NextIcon}
+  `}
+`;
+
+export const Div = styled.div`
+  ${({ theme }) => css`
+    ${theme.mixins.DivIconNext}
+  `}
+`;
